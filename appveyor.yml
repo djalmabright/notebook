@@ -11,9 +11,7 @@ environment:
 
 platform:
   - x64
-
 build: off
-
 install:
   - cmd: call %CONDA_INSTALL_LOCN%\Scripts\activate.bat
   - cmd: conda config --set show_channel_urls true
